@@ -1,25 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-	<meta charset="UTF-8">
-	<title>Your First Webapp With React</title>
-	<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/flatly/bootstrap.min.css" type="text/css" rel="stylesheet" />
-	<link href="assets/css/styles.css" type="text/css" rel="stylesheet" />
-</head>
-<body>
+    <head>
+        <script src="https://fb.me/react-15.2.1.js"></script>
+        <script src="https://fb.me/react-dom-15.2.1.js"></script>
+        <title>My First React File</title>
+    </head>
+    <body>
+        <div id='react-container'></div>
+        <script>
+            ReactDOM.render(
+                React.createElement('div', null, 'Hello World'),
+                document.getElementById('react-container'))
+        </script>
 
-	<div id="main" class="container">
-
-		<!-- The App will be rendered here -->
-		
-	</div>
-
-	<!-- Including the Google Maps API and the GMaps library -->
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.12/gmaps.min.js"></script>
-
-	<!-- Our compiled JavaScript source file -->
-	<script src="./compiled.js"></script>
-
-</body>
+    </body>
 </html>
