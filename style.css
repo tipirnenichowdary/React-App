@@ -1,0 +1,22 @@
+body {
+    background-image: url("Closet-Label-770._CB306367950_.jpg");
+    background-size:200% auto;
+}
+
+input{
+	color: #4B1AED;
+
+}
+.btn-group{
+	margin: auto;
+}
+#react-container{
+	margin: 100% auto;
+}
+
+#B{
+	margin: 0 50px;
+}
+#G{
+	margin: 0 50px;
+}
